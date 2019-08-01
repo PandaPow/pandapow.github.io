@@ -12,8 +12,8 @@
 #mainNav .navbar-toggler {
   font-size: 80%;
   padding: 0.75rem;
-  color: #64a19d;
-  border: 1px solid #64a19d;
+  color: #b595da;
+  border: 1px solid #b595da;
 }
 
 #mainNav .navbar-toggler:focus {
@@ -74,15 +74,15 @@
     border-bottom: 0.25rem solid transparent;
   }
   #mainNav.navbar-shrink .nav-link:hover {
-    color: #64a19d;
+    color: #b595da;
   }
   #mainNav.navbar-shrink .nav-link:active {
-    color: #467370;
+    color: #8d5cc6;
   }
   #mainNav.navbar-shrink .nav-link.active {
-    color: #64a19d;
+    color: #b595da;
     outline: none;
-    border-bottom: 0.25rem solid #64a19d;
+    border-bottom: 0.25rem solid #b595da;
   }
 }
 
@@ -92,8 +92,8 @@
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.3)), color-stop(75%, rgba(22, 22, 22, 0.7)), to(#161616)), url("../img/bg-masthead.jpg");
-  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 75%, #161616 100%), url("../img/bg-masthead.jpg");
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.3)), color-stop(87%, rgba(22, 22, 22, 0.7)), to(#161616)), url("../img/bg-masthead-3.jpg");
+  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 87%, #161616 100%), url("../img/bg-masthead-3.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -105,7 +105,7 @@
   font-size: 2.5rem;
   line-height: 2.5rem;
   letter-spacing: 0.8rem;
-  background: -webkit-linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+  background: -webkit-linear-gradient(rgba(255, 255, 255, 0.9), rgba(181, 149, 218, 0.4));
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 }
@@ -150,20 +150,20 @@
 }
 
 .btn-primary {
-  background-color: #64a19d;
+  background-color: #b595da;
 }
 
 .btn-primary:hover {
-  background-color: #4f837f;
+  background-color: #9b6fcd;
 }
 
 .btn-primary:focus {
-  background-color: #4f837f;
+  background-color: #9b6fcd;
   color: white;
 }
 
 .btn-primary:active {
-  background-color: #467370 !important;
+  background-color: #8d5cc6 !important;
 }
 
 .about-section {
@@ -187,7 +187,7 @@
 @media (min-width: 992px) {
   .projects-section .featured-text {
     padding: 0 0 0 2rem;
-    border-left: 0.5rem solid #64a19d;
+    border-left: 0.5rem solid #b595da;
   }
 }
 
@@ -201,7 +201,7 @@
     padding: 5rem;
   }
   .projects-section .project-text hr {
-    border-color: #64a19d;
+    border-color: #b595da;
     border-width: .25rem;
     width: 30%;
   }
@@ -235,7 +235,7 @@
 
 .contact-section .card {
   border: 0;
-  border-bottom: 0.25rem solid #64a19d;
+  border-bottom: 0.25rem solid #b595da;
 }
 
 .contact-section .card h4 {
@@ -246,7 +246,7 @@
 }
 
 .contact-section .card hr {
-  border-color: #64a19d;
+  border-color: #b595da;
   border-width: 0.25rem;
   width: 3rem;
 }
@@ -279,12 +279,12 @@ body {
 }
 
 a {
-  color: #64a19d;
+  color: #b595da;
 }
 
 a:focus, a:hover {
   text-decoration: none;
-  color: #3c6360;
+  color: #8049c0;
 }
 
 .bg-black {
@@ -292,11 +292,11 @@ a:focus, a:hover {
 }
 
 .bg-primary {
-  background-color: #64a19d !important;
+  background-color: #b595da !important;
 }
 
 .text-primary {
-  color: #64a19d !important;
+  color: #b595da !important;
 }
 
 footer {
