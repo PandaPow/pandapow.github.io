@@ -74,10 +74,10 @@
     border-bottom: 0.25rem solid transparent;
   }
   #mainNav.navbar-shrink .nav-link:hover {
-    color: #b595da;
+    color: #8049c0;
   }
   #mainNav.navbar-shrink .nav-link:active {
-    color: #8d5cc6;
+    color: #67379f;
   }
   #mainNav.navbar-shrink .nav-link.active {
     color: #b595da;
@@ -92,8 +92,8 @@
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.3)), color-stop(87%, rgba(22, 22, 22, 0.7)), to(#161616)), url("../img/bg-masthead-3.jpg");
-  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 87%, #161616 100%), url("../img/bg-masthead-3.jpg");
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.3)), color-stop(87%, rgba(22, 22, 22, 0.6)), to(#161616)), url("../img/bg-masthead-3.jpg");
+  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.6) 87%, #161616 100%), url("../img/bg-masthead-3.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -251,6 +251,14 @@
   width: 3rem;
 }
 
+.contact-section .card hr:hover {
+  color: #8049c0;
+}
+
+.contact-section .card:hover {
+  border-bottom: 0.25rem solid #8049c0;
+}
+
 .contact-section .social {
   margin-top: 5rem;
 }
@@ -271,6 +279,43 @@
 
 .contact-section .social a:active {
   color: #fff;
+}
+
+.mastfoot {
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 40 rem;
+  padding: 15rem 0;
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(22, 22, 22, 0.3)), color-stop(85%, rgba(22, 22, 22, 0.3)), to(#161616)), url("../img/undersea.jpg");
+  background: linear-gradient(to top, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.3) 85%, #161616 100%), url("../img/undersea.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+@media (min-width: 768px) {
+  .mastfoot h1 {
+    font-size: 4rem;
+    line-height: 4rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .mastfoot {
+    min-height: 100vh;
+    padding: 0;
+  }
+  .mastfoot h1 {
+    font-size: 6.5rem;
+    line-height: 6.5rem;
+    letter-spacing: 0.8rem;
+  }
+  .mastfoot h2 {
+    max-width: 30rem;
+    font-size: 1.25rem;
+  }
 }
 
 body {
